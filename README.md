@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Youtube Data Parser API
 
-Things you may want to cover:
+### Development
 
-* Ruby version
+```
+./bin/bundle install
 
-* System dependencies
+./bin/rails s
+```
 
-* Configuration
+### Test
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+rspec spec --format documentation
+```
